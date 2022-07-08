@@ -261,7 +261,9 @@ tags:
 
   - name: Puzzles
     type: style
-
+    description: |
+       Use when the kata description is intended to be indirect and provoke thought and analysis to grasp.
+       
   - name: Restricted
     aliases:
       - codegolf
@@ -275,7 +277,7 @@ tags:
       - brain teasers
     type: style
     description: |
-       Use when the kata description is intended to be indirect and provoke thought and analysis to grasp.
+      Kata that implement brain teasers or logic puzzles.
 
 
   # Tasks
