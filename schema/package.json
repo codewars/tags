@@ -1,0 +1,12 @@
+{
+  "name": "@codewars/tags-schema",
+  "private": true,
+  "version": "0.1.0",
+  "description": "JSON Schema for tags data",
+  "scripts": {
+    "schema": "rm -f ./tags.json && typescript-json-schema --required tags.ts Data > tags.json"
+  },
+  "devDependencies": {
+    "typescript-json-schema": "^0.54.0"
+  }
+}
