@@ -1,0 +1,300 @@
+# Tag type are used to categorize tags so we can utilize the subsets separately.
+# - `keyword`: General keywords related to the kata (default)
+# - `topic`: Tags with wider scope than `keyword` tags (e.g., `data-structures`, `math`).
+# - `style`: Tags describing kata style (e.g., `debugging`, `refactoring`, `restricted`, `puzzles`)
+# - `domain`: Similar to `topic`, but specifically for career paths/domain (e.g., `backend`, `frontend`, `data-science`)
+# - `package`: Tags for libraries, frameworks, packages, etc. (e.g., `numpy`, `flask`, `react`)
+#
+# Description can use Markdown, and shown on `/tags` page.
+tags:
+  - name: Algorithms
+    type: topic
+
+  - name: Data Structures
+    type: topic
+
+  - name: Arrays
+  - name: Binary Search Trees
+  - name: Binary Trees
+  - name: Heaps
+  - name: Linked Lists
+  - name: Lists
+  - name: Monads
+  - name: Priority Queues
+  - name: Queues
+  - name: Sets
+  - name: Stacks
+  - name: Trees
+
+
+  - name: Design Patterns
+    type: topic
+  - name: Singleton
+  - name: Decorator
+
+
+  - name: Mathematics
+    type: topic
+    aliases:
+      - math
+  - name: Algebra
+  - name: Geometry
+  - name: Linear Algebra
+  - name: Number Theory
+  - name: Probability
+  - name: Statistics
+
+  - name: Discrete Mathematics
+    type: topic
+  - name: Permutations
+  - name: Combinatorics
+
+
+  - name: Language Features
+    type: topic
+
+
+  - name: Theorem Proving
+    type: topic
+
+
+  - name: Cryptography
+    type: topic
+  - name: Ciphers
+
+
+  - name: Data Science
+    type: domain
+  - name: Data Frames
+
+
+  - name: Web3
+    type: domain
+
+  - name: Backend
+    type: domain
+
+  - name: Frontend
+    type: domain
+  - name: React
+    type: package
+  - name: Angular
+    type: package
+
+
+  - name: Graphics
+    type: topic
+  - name: Image Processing
+
+
+  - name: Fundamentals
+
+  - name: Security
+
+  - name: Concurrency
+
+  - name: Threads
+    aliases:
+      - threading
+
+  - name: Asynchronous
+    aliases:
+      - async
+
+  - name: State Machines
+  - name: Cellular Automata
+    description: |
+      Use for kata related to state/rule-based grid simulations.
+
+  - name: Computational Science
+    aliases:
+      - Scientific Computing
+    description: |
+      Aalso known as scientific computing or scientific computation.
+      <https://en.wikipedia.org/wiki/Computational_science>
+
+  # Programming Paradigms
+  - name: Object-oriented Programming
+    type: topic
+    aliases:
+      - oop
+  - name: Functional Programming
+    type: topic
+    aliases:
+      - functional
+      - fp
+  - name: Logic Programming
+    type: topic
+  - name: Reactive Programming
+    type: topic
+
+  - name: Domain Specific Languages
+    aliases:
+      - dsl
+    description: |
+      <https://en.wikipedia.org/wiki/Domain-specific_language>
+
+  - name: Regular Expressions
+    aliases:
+      - regex
+      - regexp
+
+  - name: Dynamic Programming
+  - name: Memoization
+
+  - name: Binary
+  - name: Bits
+  - name: Strings
+
+  - name: Date Time
+    aliases:
+      - datetime
+      - date
+      - dates
+      - time
+
+  - name: Big Integers
+
+  - name: Graph Theory
+    description: |
+      Use for algorithms and data structures that deal with graphs/networks made up of edges and vertices (nodes).
+
+  - name: Matrix
+    aliases:
+      - matrices
+
+  - name: Iterators
+  - name: Macros
+
+  - name: Metaprogramming
+
+  - name: Reflection
+
+  - name: Searching
+    aliases:
+      - Search
+
+  - name: Compilers
+  - name: Interpreters
+  - name: Parsing
+    aliases:
+      - Parsers
+  - name: Sorting
+  - name: Filtering
+  - name: Simulation
+
+  - name: Recursion
+
+  - name: Physics
+
+  - name: Scheduling
+
+  - name: Networks
+    description: |
+      Use for networking protcols and standards such as TCP/IP and HTTP (not the graph data structure; use `Graph Theory`)
+
+  - name: Numerical Analysis
+
+  - name: Machine Learning
+  - name: Genetic Algorithms
+  - name: Randomized Algorithms
+  - name: Neural Networks
+  - name: Artificial Intelligence
+    aliases:
+      - ai
+  - name: Deep Learning
+
+  - name: Reverse Engineering
+
+  - name: Event Handling
+    aliases:
+      - events
+      - event
+
+  - name: Esoteric Languages
+    aliases:
+      - esolangs
+    description: |
+      Languages that aren't intended for general-purpose problem solving.
+      Use for interpreters/compilers of these languages.
+
+  - name: Games
+    primary: true
+    aliases:
+      - game
+
+  - name: Game Solvers
+
+  - name: Performance
+    aliases:
+      - Optimization
+
+  - name: Promises
+
+  - name: Logic
+
+  - name: Set Theory
+
+  - name: Databases
+
+  - name: JSON
+  - name: ASCII Art
+  - name: Unicode
+
+  - name: Streams
+
+  - name: Debugging
+    aliases:
+      - bugs
+      - bug fixes
+    type: style
+    description: |
+      Use when existing code is provided that must be fixed.
+
+  - name: Refactoring
+    type: style
+    description: |
+      No new functionality is added; Use for code quality and design improvements.
+
+  - name: Tutorials
+    type: style
+
+  - name: Puzzles
+    type: style
+
+  - name: Restricted
+    aliases:
+      - codegolf
+      - code golf
+    type: style
+    description: |
+      Kata that impose artificial constraints, such as disallowed language features or limited solution code length.
+
+  - name: Riddles
+    aliases:
+      - brain teasers
+    type: style
+    description: |
+       Use when the kata description is intended to be indirect and provoke thought and analysis to grasp.
+
+
+  # Tasks
+  - name: Data Visualization
+  - name: Graphs
+    description: |
+      Use for charts. Use `Graph Theory` for the algorithm paradigm/data structure.
+  - name: Web Scraping
+
+  # Technologies (Frameworks/Packages/Protocol)
+  - name: SQL
+  - name: NoSQL
+  - name: MongoDB
+
+  - name: Express
+    type: package
+  - name: Flask
+    type: package
+  - name: NumPy
+    type: package
+  - name: RxJS
+    type: package
