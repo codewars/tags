@@ -12,6 +12,7 @@ tags:
 
   - name: Data Structures
     type: topic
+    icon: box
 
   - name: Arrays
   - name: Binary Search Trees
@@ -52,6 +53,7 @@ tags:
 
   - name: Language Features
     type: topic
+    icon: braces
 
 
   - name: Theorem Proving
@@ -60,11 +62,15 @@ tags:
 
   - name: Cryptography
     type: topic
+    featured: true
+    icon: key
   - name: Ciphers
 
 
   - name: Data Science
     type: domain
+    featured: true
+    icon: graph-up-arrow
   - name: Data Frames
 
 
@@ -219,9 +225,10 @@ tags:
       Use for interpreters/compilers of these languages.
 
   - name: Games
-    primary: true
     aliases:
       - game
+    featured: true
+    icon: joystick
 
   - name: Game Solvers
 
@@ -240,7 +247,7 @@ tags:
   - name: JSON
   - name: ASCII Art
     description: |
-      Create shapes and drawings with formatted strings and characters.  
+      Create shapes and drawings with formatted strings and characters.
   - name: Unicode
 
   - name: Streams
@@ -252,6 +259,8 @@ tags:
     type: style
     description: |
       Use when existing code is provided that must be fixed.
+    featured: true
+    icon: bug
 
   - name: Refactoring
     type: style
@@ -260,12 +269,14 @@ tags:
 
   - name: Tutorials
     type: style
+    featured: true
+    icon: book
 
   - name: Puzzles
     type: style
     description: |
        Use when the kata description is intended to be indirect and provoke thought and analysis to grasp.
-       
+
   - name: Restricted
     aliases:
       - codegolf

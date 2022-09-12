@@ -7,4 +7,6 @@ export type Tag = {
   type?: "keyword" | "topic" | "style" | "domain" | "package";
   description?: string;
   aliases?: string[];
+  featured?: boolean;
+  icon?: string;
 };

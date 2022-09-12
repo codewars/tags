@@ -13,6 +13,12 @@
                     "description": {
                         "type": "string"
                     },
+                    "featured": {
+                        "type": "boolean"
+                    },
+                    "icon": {
+                        "type": "string"
+                    },
                     "name": {
                         "type": "string"
                     },
